@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <meta name="description" content="Gaurav Bodawade — Software Developer. Building accessible, performant web experiences with thoughtful design and robust engineering." />
+  <title>Gaurav Bodawade · Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:ital,opsz@0,6..72;1,6..72&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <!-- Header / Nav -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand" aria-label="Gaurav Bodawade, home">
+        <span class="brand-mark">GB</span>
+        <span class="brand-name">Gaurav Bodawade</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav-list" id="nav-list">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode" aria-pressed="true">
+          <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+          <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button id="menu-toggle" class="icon-btn menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-list">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Home / Hero -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow reveal">Software Developer</p>
+        <h1 class="hero-title reveal">Hi, I&apos;m Gaurav Bodawade. I build <em>thoughtful</em> software for the web.</h1>
+        <p class="hero-lead reveal">I craft accessible, pixel-perfect digital experiences that blend clean design with robust engineering — from frontend interfaces to full-stack systems.</p>
+        <div class="hero-actions reveal">
+          <a href="#projects" class="btn btn-primary">View my work</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+        <ul class="hero-socials reveal" aria-label="Social links">
+          <li><a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.79 2.73 1.27 3.4.97.1-.76.41-1.27.74-1.56-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.41-5.27 5.69.42.36.79 1.08.79 2.18v3.23c0 .31.21.68.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z"/></svg></a></li>
+          <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.55V9h3.57v11.45zM22.22 0H1.77C.8 0 0 .77 0 1.73v20.54C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a></li>
+          <li><a href="mailto:hello@gauravbodawade.dev" aria-label="Email"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-index">01</span>
+          <h2 class="section-title">About</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p>I&apos;m a developer passionate about building software that lives at the intersection of design and engineering. I care deeply about details — accessibility, performance, and the small interactions that make an interface feel alive.</p>
+            <p>Currently I work as a <strong>Full-Stack Engineer</strong>, where I architect and ship features used by thousands of people. I&apos;ve worked across startups and product studios, and I love turning ambiguous problems into reliable, well-tested systems.</p>
+            <p>When I&apos;m not coding, you&apos;ll find me reading about systems design, contributing to open source, or exploring the outdoors with a good cup of coffee.</p>
+          </div>
+          <aside class="about-facts reveal">
+            <dl>
+              <div class="fact"><dt>Location</dt><dd>Pune, Maharashtra</dd></div>
+              <div class="fact"><dt>Experience</dt><dd>6+ years</dd></div>
+              <div class="fact"><dt>Focus</dt><dd>Web &amp; Cloud</dd></div>
+              <div class="fact"><dt>Availability</dt><dd>Open to work</dd></div>
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-index">02</span>
+          <h2 class="section-title">Skills</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <h3>Frontend</h3>
+            <ul class="tag-list">
+              <li>JavaScript</li><li>TypeScript</li><li>React</li><li>Next.js</li><li>Vue</li><li>HTML5</li><li>CSS / Sass</li><li>Tailwind</li>
+            </ul>
+          </article>
+          <article class="skill-card reveal">
+            <h3>Backend</h3>
+            <ul class="tag-list">
+              <li>Node.js</li><li>Express</li><li>Python</li><li>PostgreSQL</li><li>MongoDB</li><li>GraphQL</li><li>REST APIs</li><li>Redis</li>
+            </ul>
+          </article>
+          <article class="skill-card reveal">
+            <h3>Tools &amp; Cloud</h3>
+            <ul class="tag-list">
+              <li>Git</li><li>Docker</li><li>AWS</li><li>Vercel</li><li>CI/CD</li><li>Jest</li><li>Figma</li><li>Linux</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-index">03</span>
+          <h2 class="section-title">Projects</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-top">
+              <svg class="project-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+              <a class="project-link" href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="View E-commerce Website on GitHub"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+            </div>
+            <h3>E-commerce Website</h3>
+            <p>A full-featured online store with product catalog, cart, secure checkout, and order management for a smooth shopping experience.</p>
+            <ul class="tag-list small"><li>React</li><li>Node.js</li><li>MongoDB</li><li>Stripe</li></ul>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-top">
+              <svg class="project-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 22s4-10 11-10c0 0-1 8-9 9.5M11 12c0-5 5-9 11-9 0 6-4 11-9 11"/></svg>
+              <a class="project-link" href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="View Crop Recommendation System on GitHub"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+            </div>
+            <h3>Crop Recommendation System</h3>
+            <p>A machine learning system that recommends the best crop to cultivate based on soil nutrients, rainfall, temperature, and pH data.</p>
+            <ul class="tag-list small"><li>Python</li><li>scikit-learn</li><li>Pandas</li><li>Flask</li></ul>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-top">
+              <svg class="project-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zM2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>
+              <a class="project-link" href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="View AI Deepfake Detection System on GitHub"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+            </div>
+            <h3>AI Deepfake Detection System</h3>
+            <p>A deep learning model that detects manipulated images and videos by analyzing facial artifacts and inconsistencies frame by frame.</p>
+            <ul class="tag-list small"><li>Python</li><li>TensorFlow</li><li>OpenCV</li><li>CNN</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-index">04</span>
+          <h2 class="section-title">Education</h2>
+        </div>
+        <ol class="timeline">
+          <li class="timeline-item reveal">
+            <span class="timeline-period">Bachelor of Technology</span>
+            <div class="timeline-body">
+              <h3>B.Tech in Artificial Intelligence and Data Science</h3>
+              <p class="timeline-org">Engineering College</p>
+              <p>Specialized in machine learning, data engineering, and intelligent systems — building practical AI-driven applications and data pipelines.</p>
+            </div>
+          </li>
+          <li class="timeline-item reveal">
+            <span class="timeline-period">Diploma</span>
+            <div class="timeline-body">
+              <h3>Diploma in Information Technology</h3>
+              <p class="timeline-org">Polytechnic Institute</p>
+              <p>Built a strong foundation in programming, databases, networking, and web development, laying the groundwork for an engineering career.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-index">05</span>
+          <h2 class="section-title">Resume</h2>
+        </div>
+        <div class="resume-card reveal">
+          <div class="resume-copy">
+            <h3>Want the full story?</h3>
+            <p>Download my complete resume for a detailed look at my experience, projects, and technical skills.</p>
+          </div>
+          <a href="#" class="btn btn-primary" id="resume-download">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+            Download Resume
+          </a>
+        </div>
+        <div class="resume-experience">
+          <article class="exp-item reveal">
+            <span class="exp-period">2022 — Present</span>
+            <div>
+              <h4>Senior Full-Stack Engineer · Northwind Labs</h4>
+              <p>Lead development of customer-facing products, mentor engineers, and drive architecture decisions across the stack.</p>
+            </div>
+          </article>
+          <article class="exp-item reveal">
+            <span class="exp-period">2019 — 2022</span>
+            <div>
+              <h4>Software Engineer · Brightwave Studio</h4>
+              <p>Built performant web apps and design systems for clients ranging from startups to enterprise.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-index">06</span>
+          <h2 class="section-title">Contact</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-intro reveal">
+            <h3 class="contact-headline">Let&apos;s build something together.</h3>
+            <p>Have a project in mind or just want to say hi? My inbox is always open — I&apos;ll do my best to get back to you.</p>
+            <ul class="contact-list">
+              <li><span>Email</span><a href="mailto:hello@gauravbodawade.dev">hello@gauravbodawade.dev</a></li>
+              <li><span>Location</span><span>Pune, Maharashtra</span></li>
+            </ul>
+          </div>
+          <form class="contact-form reveal" id="contact-form" novalidate>
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required />
+              <span class="error" data-error-for="name"></span>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required />
+              <span class="error" data-error-for="email"></span>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+              <span class="error" data-error-for="message"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Send message</button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Gaurav Bodawade. Built with HTML, CSS &amp; JavaScript.</p>
+      <ul class="footer-socials" aria-label="Social links">
+        <li><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href="mailto:hello@gauravbodawade.dev">Email</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
